@@ -13,10 +13,10 @@ cat >R_chisq.R<<EOF
 	#read in input as table
 a <- read.table("${input}")
 
-	#change table to matrix
+	#change table to matrix for easier parsing
 b <- as.matrix(a)
 
-	#split up into matrix with 5 columns
+	#split up into matrix with 5 columns to represent blocks
 c <- matrix(b, nrow=(nrow(a)/5))
 
 	#calculate column means of matrix
