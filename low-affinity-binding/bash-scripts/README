@@ -1,1 +1,12 @@
+Please note that the AMBERHOME variable is subject to change based on location of Amber.
+
+
+
+
+  PCA_BA.sh
+
+    Protein backbone PCA script. 
+
+    cpptraj script (wrapped in shell) for protein backbone PCA of the four systems, and follow up analysis of the data (scree plot, and generating pseudo-trajectories of the first two PCs. Make sure to update pcmin/pcmax in second cpptraj section.
+
 
