@@ -1,6 +1,6 @@
 # Ets-1
-Central repository for all computational resources for Ets-1 projects, organized into folders with the requisite scripts and input files associated with each
+Central repository for all computational resources for Ets-1 projects, organized into folders with the requisite scripts and input files associated with each project. 
 
-Directory is organized as-
+Directories are organized as:
 
-  low-affinity-binding is for ()
+  low-affinity-binding is the associated project folder for ""
