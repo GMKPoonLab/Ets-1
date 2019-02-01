@@ -66,7 +66,10 @@ cat >PCA.ptraj<<EOF
 	parm /HA1/*.prmtop
 	parmstrip !:4-101@C,CA,N,O
 	readdata PCA.evecs.dat
+		#calculate the eigenvalues
 	modes eigenval name PCA.evecs.dat out PCA.eigenval.dat
+		#make pseudo-trajectory along PC 1+2
+		#remember to update pcmin/pcmax VAR to bounds
 	runanalysis modes name PCA.evecs.dat trajout PC1_LA.nc trajoutmask :4-101@C,CA,N,O pcmin VAR pcmax VAR tmode 1
 	runanalysis modes name PCA.evecs.dat trajout PC2b.nc trajoutmask :4-101@C,CA,N,O pcmin VAR pcmax VAR tmode 2
 EOF
