@@ -1,7 +1,8 @@
+These scripts all assume some general level of familiarity with AMBER, and the shell enviorment. 
+
 Please note that the AMBERHOME variable is subject to change based on location of Amber.
 
-
-
+Files are organized in a manner as such-
 
   PCA_BA.sh
 
@@ -15,3 +16,4 @@ Please note that the AMBERHOME variable is subject to change based on location o
     Protein sidechain PCA script. 
 
     cpptraj script (wrapped in shell) for protein sidechain PCA of the four systems, with follow up analysis (scree plot, pseudo-trajectories of the first two PCs). Make sure to update pcmin/pcmax in second cpptraj section.
+
