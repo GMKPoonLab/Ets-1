@@ -25,6 +25,6 @@ Files are organized in a manner as such-
     
    run_curves+.sh
    
-   Shell script to assist in running curves+ and processing the data into easily interpetable forms.
-   
-   Note- the input trajectories should only have DNA present. 
+     Shell script to assist in running curves+ and processing the data into easily interpetable forms.
+
+     Note- the input trajectories should only have DNA present. 
