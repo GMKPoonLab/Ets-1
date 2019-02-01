@@ -22,11 +22,11 @@ cat >analysis.ptraj<<EOF
 	rms :1-150@/H ref [pdb]
 		#rmsd for protein
 	rms :1-104@/H nofit out rms.protein.dat ref [pdb]
-      #charge charge for protein
+      		#charge charge for protein
 	mask "(@NZ,NH1,NH2<@7.5)&(:105-150@OP=)" maskout rev_7.5.dat
 	mask "(@NZ,NH1,NH2<@5.5)&(:105-150@OP=)" maskout rev_5.5.dat
 	mask "(@NZ,NH1,NH2<@3.5)&(:105-150@OP=)" maskout rev_3.5.dat
-      #neutralized phosphates
+     		#neutralized phosphates
 	mask "(:105@OP=<:5.5)&:1-104&( :LYS@NZ | :ARG@NH1,NH2 )" maskout maskout_P105.dat
 	mask "(:106@OP=<:5.5)&:1-104&( :LYS@NZ | :ARG@NH1,NH2 )" maskout maskout_P106.dat
 	mask "(:107@OP=<:5.5)&:1-104&( :LYS@NZ | :ARG@NH1,NH2 )" maskout maskout_P107.dat
