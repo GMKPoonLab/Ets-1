@@ -17,3 +17,14 @@ Files are organized in a manner as such-
 
     cpptraj script (wrapped in shell) for protein sidechain PCA of the four systems, with follow up analysis (scree plot, pseudo-trajectories of the first two PCs). Make sure to update pcmin/pcmax in second cpptraj section.
 
+  cpptraj_run.sh
+  
+    cpptraj analysis script. 
+    
+    cpptraj script (wrapped in shell) for analzying RMSD, RMSF, water counts per residue, hydrogen bond content, distances, and atom counts around various masks. 
+    
+   run_curves+.sh
+   
+   Shell script to assist in running curves+ and processing the data into easily interpetable forms.
+   
+   Note- the input trajectories should only have DNA present. 
