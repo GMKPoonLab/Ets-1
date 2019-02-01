@@ -1,3 +1,24 @@
+#!/bin/bash
+
+export AMBERHOME=/path/to/amber16
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$AMBERHOME/lib
+source $AMBERHOME/amber16/amber.sh
+
+cat >PCA.ptraj<<EOF
+		#load coordinates for different data sets
+	parm /HA1/*.prmtop [HA1]
+	parmstrip :WAT,Cl-,Na+ parm [HA1]
+	trajin /WT1/pca.nc 1 last 1 parm [HA1]
+	parm /HA2/*.prmtop [HA2]
+	parmstrip :WAT,Cl-,Na+ parm [HA2]
+	trajin /HA2/pca.nc 1 last 1 parm [HA2]
+	parm /HA3/*.prmtop [HA3]
+	parmstrip :WAT,Cl-,Na+ parm [HA3]
+	trajin /HA3/pca.nc 1 last 1 parm [HA3]
+	parm /LA1/*.prmtop [LA1]
+	parmstrip :WAT,Cl-,Na+ parm [LA1]
+	trajin /LA1/pca.nc 1 last 1 parm [LA1]
+	parm /LA2/*.prmtop [LA2]
 	parmstrip :WAT,Cl-,Na+ parm [LA2]
 	trajin /LA2/pca.nc 1 last 1 parm [LA2]
 	parm /LA3/*.prmtop [LA3]
