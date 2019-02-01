@@ -17,7 +17,13 @@ Files are organized in a manner as such-
     Protein sidechain PCA script. 
 
     cpptraj script (wrapped in shell) for protein sidechain PCA of the four systems, with follow up analysis (scree plot, pseudo-trajectories of the first two PCs). Make sure to update pcmin/pcmax in second cpptraj section.
+    
+   PCA_tot.sh
 
+    Total PCA for protein script. 
+
+    cpptraj script (wrapped in shell) for PCA of all atoms of the protein, minus first/last three residues. Follow up analysis (scree plot, pseudo-trajectories of the first two PCs) also included. Make sure to update pcmin/pcmax in second cpptraj section.
+    
   cpptraj_run.sh
   
     cpptraj analysis script. 
