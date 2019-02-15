@@ -7,4 +7,4 @@ Directories are organized by project/and their associated paper, ie low-affinity
 
 Directory guide:
 
-  low-affinity-binding ("Mechanism of cognate discrimination by the ETS-family transcription factor Ets-1")
+<t>low-affinity-binding ("Mechanism of cognate discrimination by the ETS-family transcription factor Ets-1")
