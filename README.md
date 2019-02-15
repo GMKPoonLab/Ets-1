@@ -7,9 +7,9 @@ Directories are organized by project/and their associated paper, ie low-affinity
 
 ## Directory guide:
 
-low-affinity-binding ("Mechanism of cognate discrimination by the ETS-family transcription factor Ets-1")
+1. low-affinity-binding ("Mechanism of cognate discrimination by the ETS-family transcription factor Ets-1")
   
-  ### R-scripts 
+   - R-scripts 
 
   Contains all the associated R scripts for the project (block averaging+SD). R scripts are wrapped in a shell enviorment to allow for user input.
   
