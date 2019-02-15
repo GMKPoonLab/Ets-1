@@ -4,11 +4,11 @@ Input files (prmtop/inpcrd, script for prepping tleap, etc) for running the simu
 
 - tleap_run.sh
  
->Shell script for running tleap. Assumes 10 angstrom water box and 0.15 M salt.
+ >Shell script for running tleap. Assumes 10 angstrom water box and 0.15 M salt.
   
  - Various prmtop/inpcrd
   
-   >Assorted prmtop/inpcrd files for each system of Ets-1 on a 23 bp DNA of differing sequences prepped from the tleap script.
+  >Assorted prmtop/inpcrd files for each system of Ets-1 on a 23 bp DNA of differing sequences prepped from the tleap script.
     
     - Ets-1_HA = Ets-1 + high-affinity DNA
     - Ets-1_LA = Ets-1 + low-affinity DNA
