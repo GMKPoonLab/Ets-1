@@ -4,7 +4,7 @@ Input files (prmtop/inpcrd, script for prepping tleap, etc) for running the simu
 
 - tleap_run.sh
  
- >Shell script for running tleap. Assumes 10 angstrom water box and 0.15 M salt.
+   >Shell script for running tleap. Assumes 10 angstrom water box and 0.15 M salt.
   
  - Various prmtop/inpcrd
   
