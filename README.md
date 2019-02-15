@@ -5,6 +5,6 @@ Central repository for all computational resources for Ets-1 projects, organized
 Directories are organized by project/and their associated paper, ie low-affinity-binding is the project folder for "Mechanism of cognate discrimination by the ETS-family transcription factor Ets-1".
 
 
-Directory guide:
+## Directory guide:
 
 <t>low-affinity-binding ("Mechanism of cognate discrimination by the ETS-family transcription factor Ets-1")
