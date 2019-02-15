@@ -22,6 +22,6 @@ These are all the shell (bash) scripts used for analysis. They all assume some g
   >cpptraj script (wrapped in shell) for analzying RMSD, RMSF, water counts per residue, hydrogen bond content, distances, and atom counts around various masks. 
 
 
-- run_curves+.sh
+- run_curves+.sh (shell script to run/process curves+)
    
   >Shell script to assist in running curves+ and processing the data into easily interpetable forms. There are some specific options in the input, so please read the comments carefully. **Note- the input trajectories should only have DNA present.**
