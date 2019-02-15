@@ -18,5 +18,6 @@ Directories are organized by project/and their associated paper, ie low-affinity
      
       - Contains various analysis scripts (cpptraj and curves+) wrapped in shell enviorment. The cpptraj scripts are broken into two catagories (PCA and all other analysis), while the curves+ script is designed to run and parse the output of curves+.
     
-    - test
-     - Folder containing the associated input files (topologies and input coords), along with the tleap script used to prep them.
+    - input-file
+    
+      - Folder containing the associated input files (topologies and input coords), along with the tleap script used to prep them.
